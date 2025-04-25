@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: default_transform}
 layers:
   BASE:
-  - '~'
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - '='
   - ESC
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
@@ -50,9 +50,9 @@ layers:
   - {t: /, h: ADJ}
   - RSHIFT
   - {t: TAB, h: NAV}
-  - SPACE
-  - LGUI
   - BACKSPACE
+  - LGUI
+  - SPACE
   - DEL
   - ENTER
   - SPACE
@@ -107,9 +107,9 @@ layers:
   - KP MULTIPLY
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOLUME UP
-  - VOLUME DOWN
   - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - VOLUME UP
   - {t: ▽, type: trans}
   - KP DOT
   - '0'
@@ -164,28 +164,28 @@ layers:
   - ;
   - {t: ▽, type: trans}
   - ADJ
-  - VOLUME UP
-  - VOLUME DOWN
   - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: FAST FORWARD, h: toggle}
   - PLAY PAUSE
   - {t: ▽, type: trans}
   ADJ:
-  - '&bootloader'
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
   - '&sys_reset'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&sys_reset'
-  - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT PRV
   - BT NXT
   - BT CLR
@@ -194,10 +194,10 @@ layers:
   - BT CLR
   - BT PRV
   - BT NXT
+  - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bootloader'
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
@@ -206,7 +206,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
