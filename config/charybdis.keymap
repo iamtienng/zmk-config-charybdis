@@ -70,17 +70,17 @@
         &kp EQUAL             &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U       &kp I       &kp O       &kp P       &kp GRAVE
         &kp MINUS             &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp APOS
         &kp SLASH             &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M       &kp COMMA   &kp DOT     &kp LBKT    &kp RBKT
-        &kp BSPC              &kp LSHIFT  &mo 1       &kp LCTRL   &kp LGUI    &kp LALT      &kp TAB     &kp SPACE
+                              &kp BSPC    &kp LSHIFT  &mo 1       &kp LCTRL   &kp LGUI                  &kp LALT    &kp TAB     &kp SPACE
             >;
         };
 
         MOUSE_FN {
             bindings = <
-        &kp F1    &kp F2    &kp F3    &none     &none     &none             &none            &none        &none     &none     &none     &none
-        &kp F4    &kp F5    &kp F6    &none     &none     &none             &none            &none        &kp UP    &none     &none     &none
-        &kp F7    &kp F8    &kp F9    &kp ESC   &kp ENTER &kp LS(LCTRL)     &msc SCRL_UP     &kp LEFT     &kp DOWN  &kp RIGHT &none     &none
-        &kp F10   &kp F11   &kp F12   &none     &none     &kp LS(LALT)      &msc SCRL_DOWN   &mkp LCLK    &mkp RCLK &mkp MCLK &mkp MB4  &mkp MB5
-                  &none     &none     &trans    &none     &none             &kp LALT         &kp LCTRL    &kp LSHIFT
+        &kp F1    &kp F2    &kp F3         &none     &none         &kp DEL           &kp HOME         &kp PG_UP    &none     &none     &none     &none
+        &kp F4    &kp F5    &kp F6         &none     &none         &kp PRINTSCREEN   &kp END          &kp PG_DN    &kp UP    &none     &none     &none
+        &kp F7    &kp F8    &kp F9         &kp ESC   &kp ENTER     &kp LS(LCTRL)     &msc SCRL_UP     &kp LEFT     &kp DOWN  &kp RIGHT &none     &none
+        &kp F10   &kp F11   &kp F12        &none     &none         &kp LS(LALT)      &msc SCRL_DOWN   &mkp LCLK    &mkp RCLK &mkp MCLK &mkp MB4  &mkp MB5
+                  &kp BSPC  &kp LSHIFT     &trans    &kp LCTRL     &kp LGUI                           &kp LALT     &kp LCTRL &kp LSHIFT
             >;
         };
 
