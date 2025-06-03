@@ -41,7 +41,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        // Original BASE layer
+        // Original layers
         /*
         BASE {
             bindings = <
@@ -52,17 +52,6 @@
             &lt 1 TAB    &kp BACKSPACE  &kp LGUI    &kp SPACE     &kp DEL  &kp ENTER         &kp SPACE                 &lt 2 BACKSPACE
             >;
         };
-        */
-
-        BASE {
-            bindings = <
-        &kp NON_US_BACKSLASH  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp NON_US_HASH
-        &kp EQUAL             &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U       &kp I       &kp O       &kp P       &kp GRAVE
-        &kp MINUS             &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp APOS
-        &kp SLASH             &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M       &kp COMMA   &kp DOT     &kp LBKT    &kp RBKT
-        &kp BSPC              &kp LSHIFT  &kp ENTER   &kp LCTRL   &kp LGUI    &kp LALT      &kp TAB     &kp SPACE
-            >;
-        };
 
         NAV {
             bindings = <
@@ -71,6 +60,27 @@
 &kp PRINTSCREEN  &kp INSERT      &kp LEFT         &kp DOWN           &kp RIGHT        &kp LBKT              &kp RBKT  &kp N4  &kp N5  &kp N6  &kp KP_MINUS     &kp KP_DIVIDE
 &trans           &kp DEL         &kp PG_UP        &kp CAPS           &kp PG_DN        &kp LPAR              &kp RPAR  &kp N1  &kp N2  &kp N3  &kp KP_MULTIPLY  &trans
                  &trans          &trans           &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans    &kp KP_DOT            &kp N0          &mo 3
+            >;
+        };
+        */
+
+        BASE {
+            bindings = <
+        &kp NON_US_BACKSLASH  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5        &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp NON_US_HASH
+        &kp EQUAL             &kp Q       &kp W       &kp E       &kp R       &kp T         &kp Y       &kp U       &kp I       &kp O       &kp P       &kp GRAVE
+        &kp MINUS             &kp A       &kp S       &kp D       &kp F       &kp G         &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp APOS
+        &kp SLASH             &kp Z       &kp X       &kp C       &kp V       &kp B         &kp N       &kp M       &kp COMMA   &kp DOT     &kp LBKT    &kp RBKT
+        &kp BSPC              &kp LSHIFT  &mo 1       &kp LCTRL   &kp LGUI    &kp LALT      &kp TAB     &kp SPACE
+            >;
+        };
+
+        MOUSE_FN {
+            bindings = <
+        &kp F1    &kp F2    &kp F3    &none     &none     &none             &none            &none        &none     &none     &none     &none
+        &kp F4    &kp F5    &kp F6    &none     &none     &none             &none            &none        &kp UP    &none     &none     &none
+        &kp F7    &kp F8    &kp F9    &kp ESC   &kp ENTER &kp LS(LCTRL)     &msc SCRL_UP     &kp LEFT     &kp DOWN  &kp RIGHT &none     &none
+        &kp F10   &kp F11   &kp F12   &none     &none     &kp LS(LALT)      &msc SCRL_DOWN   &mkp LCLK    &mkp RCLK &mkp MCLK &mkp MB4  &mkp MB5
+                  &none     &none     &trans    &none     &none             &kp LALT         &kp LCTRL    &kp LSHIFT
             >;
         };
 
