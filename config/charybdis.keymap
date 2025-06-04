@@ -60,7 +60,7 @@
             bindings = <&mo 5>;
         };
 
-        combo_scroll_mode {
+        combo_scroll_mode_alt {
             timeout-ms = <50>;
             key-positions = <43 44 45>; // M + , + .
             bindings = <&mo 5>;
