@@ -101,6 +101,36 @@
             key-positions = <19 20>;  // U + I
             bindings = <&kp UP>;
         };
+
+        combo_mute {
+            timeout-ms = <50>;
+            key-positions = <4 5>;    // 4 + 5
+            bindings = <&kp C_MUTE>;
+        };
+
+        combo_vol_up {
+            timeout-ms = <50>;
+            key-positions = <3 4>;    // 3 + 4
+            bindings = <&kp C_VOL_UP>;
+        };
+
+        combo_vol_down {
+            timeout-ms = <50>;
+            key-positions = <2 3>;    // 2 + 3
+            bindings = <&kp C_VOL_DN>;
+        };
+
+        combo_brightness_up {
+            timeout-ms = <50>;
+            key-positions = <1 2>;    // 1 + 2
+            bindings = <&kp C_BRI_UP>;
+        };
+
+        combo_brightness_down {
+            timeout-ms = <50>;
+            key-positions = <0 1>;    // NON_US_BACKSLASH + 1
+            bindings = <&kp C_BRI_DN>;
+        };
     };
 
     keymap {
