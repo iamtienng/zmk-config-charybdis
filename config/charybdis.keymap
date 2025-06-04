@@ -35,7 +35,36 @@
             bindings = <&kp ESC>;
         };
         */
-        
+
+        combo_lmb {
+            timeout-ms = <50>;
+            key-positions = <43 44>;  // M + ,
+            bindings = <&mkp LCLK>;
+        };
+
+        combo_rmb {
+            timeout-ms = <50>;
+            key-positions = <44 45>;  // , + .
+            bindings = <&mkp RCLK>;
+        };
+
+        combo_mmb {
+            timeout-ms = <50>;
+            key-positions = <45 46>;  // . + [
+            bindings = <&mkp MCLK>;
+        };
+
+        combo_scroll_mode {
+            timeout-ms = <50>;
+            key-positions = <37 38>;  // J + K
+            bindings = <&mo 5>;
+        };
+
+        combo_scroll_mode {
+            timeout-ms = <50>;
+            key-positions = <43 44 45>; // M + , + .
+            bindings = <&mo 5>;
+        };
     };
 
     keymap {
