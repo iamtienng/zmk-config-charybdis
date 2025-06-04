@@ -56,7 +56,7 @@
 
         combo_scroll_mode {
             timeout-ms = <50>;
-            key-positions = <37 38>;  // J + K
+            key-positions = <31 32>;  // J + K
             bindings = <&mo 5>;
         };
 
