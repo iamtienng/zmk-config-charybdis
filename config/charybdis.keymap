@@ -57,13 +57,13 @@
         combo_snipe {
             timeout-ms = <50>;
             key-positions = <43 44 45>; // M + , + .
-            bindings = <&mo 4>;
+            bindings = <&mo 2>;
         };
 
         combo_scroll_mode {
             timeout-ms = <50>;
             key-positions = <43 45>;  // M + .
-            bindings = <&mo 5>;
+            bindings = <&mo 3>;
         };
 
         combo_scroll_up {
@@ -174,7 +174,7 @@
         &kp F1    &kp F2    &kp F3         &kp LC(TAB)       &kp LA(TAB)       &kp DEL           &kp HOME         &kp PG_UP    &out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_CLR
         &kp F4    &kp F5    &kp F6         &kp LC(PSCRN)     &kp LS(PSCRN)     &kp PRINTSCREEN   &kp END          &kp PG_DN    &kp UP           &bt BT_SEL 2     &bt BT_SEL 3     &none
         &kp F7    &kp F8    &kp F9         &kp ESC           &kp ENTER         &kp LS(LCTRL)     &msc SCRL_UP     &kp LEFT     &kp DOWN         &kp RIGHT        &kp LCTRL        &kp LSHIFT
-        &kp F10   &kp F11   &kp F12        &mo 5             &mo 4             &kp LS(LALT)      &msc SCRL_DOWN   &mkp LCLK    &mkp RCLK        &mkp MCLK        &mkp MB4         &mkp MB5
+        &kp F10   &kp F11   &kp F12        &mo 3             &mo 2             &kp LS(LALT)      &msc SCRL_DOWN   &mkp LCLK    &mkp RCLK        &mkp MCLK        &mkp MB4         &mkp MB5
                   &kp BSPC  &kp LSHIFT     &trans            &kp LCTRL         &kp LGUI                           &kp LALT     &kp LCTRL        &kp LSHIFT
             >;
         };
