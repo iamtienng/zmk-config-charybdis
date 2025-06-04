@@ -54,7 +54,7 @@
         /*   optional features   */
         snipe-layers = <4>;
         scroll-layers = <5>;
-	    scroll-divisor = <-22>;
+        input-processors = <&zip_scroll_transform(INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
         /* automouse-layer = <4>; */
     };
 };
