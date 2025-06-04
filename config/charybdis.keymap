@@ -66,6 +66,18 @@
             bindings = <&mo 5>;
         };
 
+        combo_scroll_up {
+            timeout-ms = <50>;
+            key-positions = <30 45>;  // H + .
+            bindings = <&msc SCRL_UP>;
+        };
+
+        combo_scroll_down {
+            timeout-ms = <50>;
+            key-positions = <37 45>;  // N + .
+            bindings = <&msc SCRL_DOWN>;
+        };
+
         combo_arrow_down {
             timeout-ms = <50>;
             key-positions = <31 32>;  // J + K
