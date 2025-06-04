@@ -8,7 +8,7 @@ Here is the BOM for this project: [BOM Charybdis 4x6 Wireless](/docs/bom/readme.
 
 ## Keymap
 
-This is iamtienng's keymap for Charybdis
+This is keymap for Charybdis you can find in this repository build files.  
 Generated with [Keymap Drawer](https://github.com/caksoylar/keymap-drawer-web/)
 ![RZ Keymap](/docs/layouts/my_keymap.png)
 ![RZ Keymap combos](/docs/layouts/combos.png)
