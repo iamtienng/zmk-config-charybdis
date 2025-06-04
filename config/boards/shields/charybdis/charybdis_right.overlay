@@ -54,6 +54,7 @@
         /*   optional features   */
         snipe-layers = <4>;
         scroll-layers = <5>;
+	    scroll-divisor = <-22>;
         /* automouse-layer = <4>; */
     };
 };
@@ -62,6 +63,5 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-    input-processors = <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT INPUT_TRANSFORM_Y_INVERT>;
   };
 };
