@@ -56,14 +56,32 @@
 
         combo_scroll_mode {
             timeout-ms = <50>;
-            key-positions = <31 32>;  // J + K
+            key-positions = <43 44 45>; // M + , + .
             bindings = <&mo 5>;
         };
 
-        combo_scroll_mode_alt {
+        combo_arrow_down {
             timeout-ms = <50>;
-            key-positions = <43 44 45>; // M + , + .
-            bindings = <&mo 5>;
+            key-positions = <31 32>;  // J + K
+            bindings = <&kp DOWN>;
+        };
+        
+        combo_arrow_left {
+            timeout-ms = <50>;
+            key-positions = <30 31>;  // H + J
+            bindings = <&kp LEFT>;
+        };
+        
+        combo_arrow_right {
+            timeout-ms = <50>;
+            key-positions = <32 33>;  // K + L
+            bindings = <&kp RIGHT>;
+        };
+        
+        combo_arrow_up {
+            timeout-ms = <50>;
+            key-positions = <19 20>;  // U + I
+            bindings = <&kp UP>;
         };
     };
 
