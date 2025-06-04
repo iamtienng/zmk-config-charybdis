@@ -54,6 +54,12 @@
             bindings = <&mkp MCLK>;
         };
 
+        combo_snipe {
+            timeout-ms = <50>;
+            key-positions = <43 45>;  // M + .
+            bindings = <&mo 4>;
+        };
+
         combo_scroll_mode {
             timeout-ms = <50>;
             key-positions = <43 44 45>; // M + , + .
