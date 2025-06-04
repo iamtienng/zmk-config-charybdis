@@ -50,6 +50,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        cpi = <2000>;
 
         /*   optional features   */
         snipe-layers = <4>;
