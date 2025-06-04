@@ -74,7 +74,7 @@
 
         combo_scroll_down {
             timeout-ms = <50>;
-            key-positions = <37 45>;  // N + .
+            key-positions = <42 45>;  // N + .
             bindings = <&msc SCRL_DOWN>;
         };
 
