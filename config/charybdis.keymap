@@ -173,7 +173,7 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans    &trans    &trans    &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans    &trans    &trans    &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans          &msc SCRL_UP  &trans    &trans    &trans    &kp LCTRL &kp LSHIFT>
+        &trans  &trans  &trans  &trans  &trans  &trans          &msc SCRL_UP  &trans    &trans    &trans    &kp LCTRL &kp LSHIFT
         &trans  &trans  &trans  &trans  &trans  &trans          &msc SCRL_DOWN &mkp LCLK &mkp RCLK &mkp MCLK &mkp MB4 &mkp MB5
                 &trans  &trans  &trans  &trans  &trans          &trans &trans &trans
             >;
