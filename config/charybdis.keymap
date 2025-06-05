@@ -150,9 +150,9 @@
 
         MOUSE_FN {
             bindings = <
-        &kp F1    &kp F2    &kp F3         &kp LC(TAB)       &kp LA(TAB)       &kp DEL           &kp HOME         &kp PG_UP    &out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_CLR
-        &kp F4    &kp F5    &kp F6         &kp LC(PSCRN)     &kp LS(PSCRN)     &kp PRINTSCREEN   &kp END          &kp PG_DN    &kp UP           &bt BT_SEL 2     &bt BT_SEL 3     &none
-        &kp F7    &kp F8    &kp F9         &kp ESC           &kp ENTER         &kp LS(LCTRL)     &msc SCRL_UP     &kp LEFT     &kp DOWN         &kp RIGHT        &kp LCTRL        &kp LSHIFT
+        &kp F1    &kp F2    &kp F3         &none             &kp PRINTSCREEN   &kp DEL           &kp HOME         &kp PG_UP    &out OUT_TOG     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_CLR
+        &kp F4    &kp F5    &kp F6         &kp LS(PSCRN)     &kp LC(PSCRN)     &kp INS           &kp END          &kp PG_DN    &kp UP           &bt BT_SEL 2     &bt BT_SEL 3     &none
+        &kp F7    &kp F8    &kp F9         &kp ESC           &kp ENTER         &kp LG(SPACE)     &msc SCRL_UP     &kp LEFT     &kp DOWN         &kp RIGHT        &kp LCTRL        &kp LSHIFT
         &kp F10   &kp F11   &kp F12        &mo 3             &mo 2             &kp LS(LALT)      &msc SCRL_DOWN   &mkp LCLK    &mkp RCLK        &mkp MCLK        &mkp MB4         &mkp MB5
                   &kp BSPC  &kp LSHIFT     &trans            &kp LCTRL         &kp LGUI                           &kp LALT     &kp LCTRL        &kp LSHIFT
             >;
