@@ -39,21 +39,12 @@
         };
         */
 
-        /*
-        combo_scroll_up {
+        combo_arrow_up {
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
-            key-positions = <50 45>;  // H + .
-            bindings = <&msc SCRL_UP>;
+            key-positions = <19 20>;  // U + I
+            bindings = <&kp UP>;
         };
-
-        combo_scroll_down {
-            timeout-ms = <50>;
-            require-prior-idle-ms = <150>;
-            key-positions = <42 45>;  // N + .
-            bindings = <&msc SCRL_DOWN>;
-        };
-        */
 
         combo_arrow_down {
             timeout-ms = <50>;
@@ -61,26 +52,19 @@
             key-positions = <31 32>;  // J + K
             bindings = <&kp DOWN>;
         };
-        
-        combo_arrow_left {
-            timeout-ms = <50>;
-            require-prior-idle-ms = <150>;
-            key-positions = <50 31>;  // H + J
-            bindings = <&kp LEFT>;
-        };
-        
+
         combo_arrow_right {
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
-            key-positions = <32 33>;  // K + L
+            key-positions = <50 31>;  // K + L
             bindings = <&kp RIGHT>;
         };
-        
-        combo_arrow_up {
+
+        combo_arrow_left {
             timeout-ms = <50>;
             require-prior-idle-ms = <150>;
-            key-positions = <19 20>;  // U + I
-            bindings = <&kp UP>;
+            key-positions = <32 33>;  // H + J
+            bindings = <&kp LEFT>;
         };
 
         combo_lmb_left {
@@ -102,6 +86,20 @@
             require-prior-idle-ms = <150>;
             key-positions = <38 37>;  // Left half . + [
             bindings = <&mkp MCLK>;
+        };
+
+        combo_scroll_up {
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            key-positions = <40 29>;  // H + .
+            bindings = <&msc SCRL_UP>;
+        };
+
+        combo_scroll_down {
+            timeout-ms = <50>;
+            require-prior-idle-ms = <150>;
+            key-positions = <40 41>;  // N + .
+            bindings = <&msc SCRL_DOWN>;
         };
 
         combo_snipe_left {
