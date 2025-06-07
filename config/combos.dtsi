@@ -4,177 +4,177 @@
 
         /*
         combo_lmb {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <43 44>;  // M + ,
             bindings = <&mkp LCLK>;
         };
 
         combo_rmb {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <44 45>;  // , + .
             bindings = <&mkp RCLK>;
         };
 
         combo_mmb {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <45 46>;  // . + [
             bindings = <&mkp MCLK>;
         };
 
         combo_snipe {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <43 44 45>; // M + , + .
             bindings = <&mo 2>;
         };
 
         combo_scroll_mode {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <43 45>;  // M + .
             bindings = <&mo 3>;
         };
         */
 
         combo_lmb_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <40 39>;  // Left half M + ,
             bindings = <&mkp LCLK>;
         };
 
         combo_rmb_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <39 38>;  // Left half , + .
             bindings = <&mkp RCLK>;
         };
 
         combo_mmb_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <38 37>;  // Left half . + [
             bindings = <&mkp MCLK>;
         };
 
         combo_scroll_up {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <40 29>;  // H + .
             bindings = <&msc SCRL_UP>;
         };
 
         combo_scroll_down {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <40 41>;  // N + .
             bindings = <&msc SCRL_DOWN>;
         };
 
         combo_snipe_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <40 39 38>;  // Left half M + , + .
             bindings = <&mo 2>;
         };
 
         combo_scroll_mode_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <40 38>;  // Left half M + .
             bindings = <&mo 3>;
         };
 
         combo_arrow_up_right {
             timeout-ms = <50>;
-            require-prior-idle-ms = <500>;
+            require-prior-idle-ms = <250>;
             key-positions = <19 20>;  // U + I (MISSING - RESTORED)
             bindings = <&kp UP>;
         };
 
         combo_arrow_down_right {
             timeout-ms = <50>;
-            require-prior-idle-ms = <500>;
+            require-prior-idle-ms = <250>;
             key-positions = <31 32>;  // J + K (CORRECT)
             bindings = <&kp DOWN>;
         };
 
         combo_arrow_left_right {
             timeout-ms = <50>;
-            require-prior-idle-ms = <500>;
+            require-prior-idle-ms = <250>;
             key-positions = <30 31>;  // H + J (FIXED from 32 33)
             bindings = <&kp LEFT>;
         };
 
         combo_arrow_right_right {
             timeout-ms = <50>;
-            require-prior-idle-ms = <500>;
+            require-prior-idle-ms = <250>;
             key-positions = <32 33>;  // K + L (FIXED from 50 31)
             bindings = <&kp RIGHT>;
         };
 
         combo_arrow_up_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <16 15>;  // Left half U + I
             bindings = <&kp UP>;
         };
 
         combo_arrow_down_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <28 27>;  // Left half J + K
             bindings = <&kp DOWN>;
         };
 
         combo_arrow_right_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <29 28>;  // Left half K + L
             bindings = <&kp RIGHT>;
         };
 
         combo_arrow_left_left {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <27 26>;  // Left half H + J
             bindings = <&kp LEFT>;
         };
 
         combo_mute {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <4 5>;    // 4 + 5
             bindings = <&kp C_MUTE>;
         };
 
         combo_vol_up {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <3 4>;    // 3 + 4
             bindings = <&kp C_VOL_UP>;
         };
 
         combo_vol_down {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <2 3>;    // 2 + 3
             bindings = <&kp C_VOL_DN>;
         };
 
         combo_brightness_up {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <1 2>;    // 1 + 2
             bindings = <&kp C_BRI_UP>;
         };
 
         combo_brightness_down {
-            timeout-ms = <100>;
-            require-prior-idle-ms = <500>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <250>;
             key-positions = <0 1>;    // NON_US_BACKSLASH + 1
             bindings = <&kp C_BRI_DN>;
         };
