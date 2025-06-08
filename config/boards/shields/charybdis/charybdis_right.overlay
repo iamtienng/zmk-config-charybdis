@@ -66,6 +66,15 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 2 &zip_scroll_scaler 1 4 &zip_temp_layer 3 &zip_xy_to_scroll_mapper>;
+        
+        precision {
+            layers = <2>;
+            input-processors = <&zip_scaler_x_y 3 2>;
+        };
+        
+        scroller {
+            layers = <3>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
     };
 };
