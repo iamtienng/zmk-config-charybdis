@@ -49,7 +49,7 @@
             >;
         };
 
-        SNIP {
+        PRECISE {
             bindings = <
         &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans    &trans    &trans    &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans    &trans    &trans    &trans  &trans
