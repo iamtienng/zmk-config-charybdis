@@ -69,7 +69,7 @@
         
         precision {
             layers = <2>;
-            input-processors = <&zip_scaler_x_y 3 2>;
+            input-processors = <&zip_xy_scaler 1 10>;
         };
         
         scroller {
