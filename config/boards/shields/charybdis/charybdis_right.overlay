@@ -51,8 +51,8 @@
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         cpi = <600>;
         evt-type = <INPUT_EV_REL>;
-        x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
+        x-input-code = <INPUT_REL_Y>;
+        y-input-code = <INPUT_REL_X>;
 
         force-awake;
         /* keep the sensor awake while ZMK activity state is ACTIVE,
